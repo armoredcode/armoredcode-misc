@@ -1,7 +1,4 @@
 require "armoredcode-misc/version"
+require "armoredcode-misc/numeric"
+require "armoredcode-misc/string"
 
-module Armoredcode
-  module Misc
-    # Your code goes here...
-  end
-end

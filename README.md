@@ -1,6 +1,19 @@
-# Armoredcode::Misc
+# Armoredcode Miscellaneous utilities
 
-TODO: Write a gem description
+This is just a set of miscellaneous utilities I wrote to speed up some annoying
+tasks for security tools (and not) I'm writing.
+
+## API
+
+Just start requiring the gem
+
+  require 'armoredcode-misc'
+
+And the following APIs will be available:
+
+  * Fixnum.duration: it prints out in a human readable way a numeric value understood as time duration interval
+  * String.starts_with?(pattern): it says if a string it is starting with a given pattern
+
 
 ## Installation
 
@@ -15,10 +28,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install armoredcode-misc
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
